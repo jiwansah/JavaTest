@@ -22,9 +22,8 @@ public class Test4 extends Test3{
 
 
 interface  Company1 {
-	final String name="";
-
-	
+	// public final static
+	final String name="";	
 }
 
 class Company {
