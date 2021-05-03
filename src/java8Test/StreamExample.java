@@ -2,6 +2,7 @@ package java8Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
@@ -64,6 +65,7 @@ public class StreamExample {
 		System.out.println(studentByMarks);
 		
 		System.out.println("===============Sort========================");
+		Comparator<Student> MARKS_ASCENDING = (a, b)-> a.marks - b.marks;
 		data.stream().sorted((a, b)-> a.marks - b.marks).forEach(i -> System.out.println(i.name));
 		String []arrayData = {"Test-1", "Test-2", "Test-3", "Test-4", "Test-5"};
 		

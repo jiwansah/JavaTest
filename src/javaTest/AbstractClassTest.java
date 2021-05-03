@@ -2,6 +2,8 @@ package javaTest;
 
 public abstract class AbstractClassTest {
 
+	
+	
 	public String sayHello(String data) {
 		return "Hello";
 	}

@@ -25,6 +25,7 @@ public class StaticClassExample {
 	}
 
 	public final static class InnerClass{
+		
 		int number = 9;
 		public void mesage() {
 			System.out.println("Message: ");

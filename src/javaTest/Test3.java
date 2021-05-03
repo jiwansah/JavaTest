@@ -1,7 +1,9 @@
 package javaTest;
 
+import java.util.ArrayList;
+import java.util.List;
 
- class Test3 {
+class Test3 {
 
 	String s;
 	
@@ -21,5 +23,8 @@ package javaTest;
 		System.out.println( t == t);
 		System.out.println( t == t2);
 		System.out.println( t.equals(t2) );
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("test");list.add("test2");
+		
 	}
 }

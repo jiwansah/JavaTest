@@ -26,7 +26,7 @@ interface  Company1 {
 	final String name="";	
 }
 
-class Company {
+abstract class Company {
 	final String name;
 
 	public Company(String name) {
